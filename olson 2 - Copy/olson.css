@@ -1,0 +1,285 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+p{
+	font-weight: 300;
+	color: #1111;
+}
+
+header{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	padding:20px 10px;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	transition: 0.s;
+}
+.logo{
+	color:#fb911f;
+	font-weight:bold;
+	font-size:2em;
+	text-decoration: none;
+}
+.logo span{
+color: #00ffff;
+}
+
+.navbar{
+	display: flex;
+	position: relative;
+}
+
+.navbar li{
+	list-style: none;
+}
+
+.navbar a{
+	color:#ffff00;
+	text-decoration: none;
+	margin-left: 30px;
+	font-weight: 700;
+}
+
+.btn-reserve{
+	padding: 10px;
+	background: #fb911f;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.btn-reserve1{
+	padding: 10px;
+	background: #fb911f;
+    margin-top: -10px;
+    text-transform: uppercase;
+
+}
+	
+.btn-reserve2{
+	padding: 10px;
+	background: #DC143C;
+    margin-top: -10px;
+    text-transform: uppercase;
+
+}
+
+
+}
+.btn-reserve1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap:1.5rem;
+}
+
+.btn-reserve2{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap:1.5rem;
+
+}
+
+
+
+
+.btn-reserve:hover{
+background:#d87710;
+transition: ease-out;
+}
+.btn-reserve{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap:1.5rem;
+}
+
+.header .navbar li a:hover{
+	color: #fb911f;
+	border-bottom: 2px solid #fb911f;
+}
+.banniere{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}.
+
+.body background{
+	background-size: cover;
+	width: 40%;
+	height: 30%;
+}
+
+.banniere .contenu{
+	max-width: 70%;
+	text-align: center;
+}
+
+
+.banniere .contenu h2{
+	color: #fff;
+	font-size:1em;
+	text-transform:capitalize;
+	text-align: center;
+}
+
+.banniere .contenu h3{
+	color: #fff;
+	font-size:1em;
+	text-transform:capitalize;
+	text-align: center;
+}
+
+
+.contenu p:nth-child(2){
+	color: #ffff;
+	font-size: 1.2em;
+}
+.btn1{
+	font-size: 1em;
+	color: #fff;
+	background: #00ced1;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+
+.btn2{
+	font-size: 1em;
+	color: #fff;
+	background: #008080;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+.btn1:hover{
+	letter-spacing: 4px;
+}
+.btn1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap:1.5rem;
+}
+.btn2:hover{
+	letter-spacing: 4px;
+}
+.btn2{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap:1.5rem;
+}
+
+.footer .box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap:1.5rem;
+}
+
+.footer .box-container .box h4{
+	padding: .5rem 0;
+	font-size: 1.5rem;
+	color: var(--black);
+
+}
+
+.footer .box-container .box a{
+	display: block;
+	padding: .5rem 0;
+	font-size: 0.9rem;
+	color: var(--light-color);
+}
+
+
+.footer .box-container .box a:hover{
+	color: var(--green);
+	text-decoration: underline;
+
+}
+.footer .designer{
+	text-align: center;
+	border-top: .1rem solid rgb(0, 0,0,.1);
+	font-size: 1rem;
+	color: var(--black);
+	padding: .3rem;
+	padding-top:1;
+	margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+#conteneur {
+	position:relative;
+	height:485px;
+	width:331px;
+	margin:0 auto;
+}
+#conteneur img {
+	position:absolute;
+	left:0;
+}
+@keyframes fondu-in-out {
+	0%    { opacity:1; }
+	25%   { opacity:1; }
+	75%   { opacity:0; }
+	100%  { opacity:0; }
+}
+#conteneur img.image-de-dessus {
+	animation-name: fondu-in-out;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-direction: alternate;
+}
+
+ul,li { margin:0 ; padding:0 }
+div#conteneur {      
+	width:660px;
+	height:220px;
+	overflow:hidden;
+	margin: 2em auto;
+	border: 1px solid black;
+	box-shadow: 0px 0px 25px 10px gray;
+}
+.salade{
+	display: table;
+	width:1540px; 
+	animation: slide-image 20s ease 0s infinite alternate;
+}
+ul li{
+	display: table-cell;
+	width:220px;
+	height:220px;
+	text-align:center;
+	vertical-align:middle;
+}
+@keyframes slide-image{
+	from,20%  {margin-left:   0px;}
+	20%,40%   {margin-left:-220px;}
+	40%,60%   {margin-left:-440px;}
+	60%,80%   {margin-left:-660px;}
+	80%,to    {margin-left:-880px;}
+}
